@@ -1,8 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
-import service from "@/images/1735550975262.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLeaf,
