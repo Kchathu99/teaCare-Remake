@@ -6,7 +6,6 @@ import dynamic from "next/dynamic";
 import animationData from "@/animations/Animation2.json";
 import leaf from "@/images/leaf2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import { faUpload } from "@fortawesome/free-solid-svg-icons";
 
 
