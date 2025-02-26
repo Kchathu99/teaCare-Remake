@@ -25,7 +25,7 @@ const ContactUs: React.FC = () => {
   };
 
   return (
-    <section className="w-full h-fit py-20  bg-[#191A19] text-white flex items-center justify-center px-20">
+    <section className="w-full h-fit py-20  bg-[#191A19] text-white flex items-center justify-centerpx-6 md:px-20">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Left Section - Locations */}
         <div>

@@ -102,7 +102,7 @@ const researchSections = [
 
 const MeetUs = () => {
   return (
-    <div className="bg-[#D8E9A8] lg:py-16 px-8">
+    <div className="bg-[#D8E9A8] lg:py-16 px-6 md:px-8">
       <div>
       <section className="text-center mt-16">
           <h4 className="text-[#1E5128] font-semibold">Our Team</h4>

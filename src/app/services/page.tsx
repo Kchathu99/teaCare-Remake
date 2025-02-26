@@ -40,7 +40,7 @@ export default function Services() {
       ];
     
   return (
-    <section className="h-fit mt-28 lg:mt-40 flex items-center justify-center bg-transparent px-20">
+    <section className="h-fit mt-28 lg:mt-40 flex items-center justify-center bg-transparent px-6 md:px-20">
       <div className=" w-full  items-center">
     
         <div className="text-left">

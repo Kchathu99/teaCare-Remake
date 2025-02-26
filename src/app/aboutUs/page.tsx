@@ -12,7 +12,7 @@ const AboutUs = () => {
   };
 
   return (
-    <section className="relative px-20 lg:px-0 lg:pl-20 bg-[#D8E9A8] h-fit mt-28 mb-28 lg:mt-40 ">
+    <section className="relative px-6 md:px-20 lg:px-0 lg:pl-20 bg-[#D8E9A8] h-fit mt-28 mb-28 lg:mt-40 ">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row justify-between">
         {/* Left Content */}
         <div className="w-full text-center lg:text-left">

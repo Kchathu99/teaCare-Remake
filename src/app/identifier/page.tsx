@@ -19,7 +19,7 @@ export default function Identifier() {
   }, []);
 
   return (
-    <section className="h-fit mt-16 md:mt-24 lg:mt-40 flex items-center justify-center bg-[#D8E9A8] px-20">
+    <section className="h-fit mt-16 md:mt-24 lg:mt-40 flex items-center justify-center bg-[#D8E9A8] px-6 md:px-20">
       <div className="max-w- w-full grid grid-cols-1 lg:grid-cols-2 gap-28 lg:gap-8 items-center">
         {/* Left Side - Text Content */}
         <div className="text-center lg:text-left">
