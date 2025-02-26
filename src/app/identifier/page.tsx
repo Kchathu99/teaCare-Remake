@@ -19,10 +19,10 @@ export default function Identifier() {
   }, []);
 
   return (
-    <section className="h-screen flex items-center justify-center bg-[#D8E9A8] px-20">
-      <div className="max-w- w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <section className="h-fit mt-16 md:mt-24 lg:mt-40 flex items-center justify-center bg-[#D8E9A8] px-20">
+      <div className="max-w- w-full grid grid-cols-1 lg:grid-cols-2 gap-28 lg:gap-8 items-center">
         {/* Left Side - Text Content */}
-        <div className="text-left">
+        <div className="text-center lg:text-left">
           <h3 className="text-[#1E5128] text-sm font-semibold uppercase mb-2">
             What we do
           </h3>
@@ -40,7 +40,7 @@ export default function Identifier() {
         </div>
 
         {/* Right Side - Animation & Image */}
-        <div className="relative flex items-center justify-center ">
+        <div className="relative hidden sm:flex items-center justify-center ">
           <div className="absolute w-[500px] h-[500px]">
             <Lottie animationData={animationData} loop={true} />
           </div>

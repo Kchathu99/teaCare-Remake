@@ -11,7 +11,7 @@ interface ContactCardProps {
 
 const ContactCard: React.FC<ContactCardProps> = ({ city, address, borderColor, textColor }) => {
   return (
-    <div className="mt-4 flex items-center space-x-4">
+    <div className="mt-4 items-center space-x-4 hidden md:flex">
       <div className={`w-12 h-12 bg-transparent border ${borderColor} rounded-full flex items-center justify-center`}>
         <span className={`${textColor} text-xl`}><FontAwesomeIcon icon={faLocationDot}/></span>
       </div>

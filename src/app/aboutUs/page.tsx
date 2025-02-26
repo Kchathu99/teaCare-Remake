@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Research from "@/images/close-up-green-leaves-nature.jpg";
+import Logo from "@/images/Logo.png";
 
 const AboutUs = () => {
   const router = useRouter(); 
@@ -12,7 +12,7 @@ const AboutUs = () => {
   };
 
   return (
-    <section className="relative pl-20 bg-[#D8E9A8]">
+    <section className="relative px-20 lg:px-0 lg:pl-20 bg-[#D8E9A8] h-fit mt-28 mb-28 lg:mt-40 ">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row justify-between">
         {/* Left Content */}
         <div className="w-full text-center lg:text-left">
@@ -37,12 +37,12 @@ const AboutUs = () => {
         </div>
 
         {/* Right Image */}
-        <div className="w-full relative">
-          <div className="w-fullrelative overflow-hidden">
+        <div className="w-full relative hidden lg:block ">
+          <div className="w-full relative overflow-hidden flex items-center justify-center ">
             <Image 
-              src={Research}
+              src={Logo}
               alt="About Us"
-              style={{ clipPath: "ellipse(100% 120% at 100% 100%)" }}
+              style={{ objectFit: "cover", width: "50%", height: "50%" }}
             />
           </div>
         </div>

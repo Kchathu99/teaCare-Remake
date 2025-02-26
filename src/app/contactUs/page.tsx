@@ -25,12 +25,12 @@ const ContactUs: React.FC = () => {
   };
 
   return (
-    <section className="w-full h-screen bg-[#191A19] text-white flex items-center justify-center px-20">
+    <section className="w-full h-fit py-20  bg-[#191A19] text-white flex items-center justify-center px-20">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Left Section - Locations */}
         <div>
           <h3 className="text-[#D8E9A8] text-lg font-semibold">Get in touch</h3>
-          <h2 className="text-4xl font-bold mt-2">Let's start a conversation.</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold mt-2">Let's start a conversation.</h2>
 
           <ContactCard
             city="Instutute of Technology, University of Moratuwa"
@@ -44,7 +44,7 @@ const ContactUs: React.FC = () => {
         </div>
 
         {/* Right Section - Form */}
-        <form onSubmit={handleSubmit} className="bg-transparent p-6">
+        <form onSubmit={handleSubmit} className="bg-transparent md:p-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <TextInput label="Your Name" name="name" value={formData.name} onChange={handleChange} required />
             <TextInput label="Phone" name="phone" value={formData.phone} onChange={handleChange} />
